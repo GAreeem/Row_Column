@@ -30,11 +30,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
 Widget build(BuildContext context) {
@@ -193,7 +188,7 @@ Widget build(BuildContext context) {
               padding: const EdgeInsets.all(12),
               color: Colors.grey.shade200,
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Row(
                     children: const [
@@ -206,10 +201,10 @@ Widget build(BuildContext context) {
                   ),
                   const SizedBox(height: 12),
                   const Text(
-                    'Nombre: Emilio García',
+                    'Nombre: Emilio Alpizar García',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
-                  const Text('Correo: emilio@example.com'),
+                  const Text('Correo: eag.4lpizar@gmail.com'),
                   const Text('Teléfono: +52 55 1234 5678'),
                 ],
               ),
